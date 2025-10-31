@@ -13,6 +13,16 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  // Enforce double quotes for all string literals to keep codebase consistent.
+  {
+    rules: {
+      quotes: [
+        "error",
+        "double",
+        { avoidEscape: true, allowTemplateLiterals: true },
+      ],
+    },
+  },
 ]);
 
 export default eslintConfig;
