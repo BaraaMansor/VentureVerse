@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VentureVerse
 
-## Getting Started
+VentureVerse is a simple, social idea board where founders and builders can share startup ideas and the community can vote on them. It's designed to help surface promising concepts, spark conversation, and give visibility to early-stage ideas.
 
-First, run the development server:
+## What it does
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Post your startup idea with a short title and description.
+- Browse ideas submitted by others.
+- Vote on ideas you like (upvotes help good ideas rise).
+- Optionally comment and discuss ideas (if enabled in the app).
+
+This repository contains a Next.js app that implements the VentureVerse frontend and basic routing.
+
+## Who is it for
+
+- Founders looking for feedback and validation.
+- Builders searching for interesting projects to join.
+- Investors and mentors browsing early concepts.
+
+## Quick start (local development)
+
+1. Install dependencies:
+
+```pwsh
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```pwsh
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Open http://localhost:3000 in your browser.
 
-## Learn More
+Notes:
 
-To learn more about Next.js, take a look at the following resources:
+- This project uses Next.js app routing. The primary UI files live in the `app/` directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project vision & UX notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Ideas should be short and focused — a title and a one-paragraph description.
+- Voting should be lightweight (one upvote per user) to quickly surface community interest.
+- Future improvements can include authentication, idea categories/tags, and idea comments.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome. If you'd like to help:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Open an issue describing the feature or bug.
+2. Fork the repo and submit a pull request with a clear description of changes.
+
+Keep changes small and well-documented. If you add UI features, include screenshots in the PR.
+
+## License
+
+This project is provided under the MIT license. See `LICENSE` for details (if present).
+
+---
+
+If you'd like, I can also add a short usage guide for submitting and voting on ideas, or include screenshots and a CONTRIBUTING.md. What would you like next?
