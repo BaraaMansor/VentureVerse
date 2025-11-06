@@ -1,3 +1,5 @@
+"use client";
+
 type VoteButtonProps = {
   ideaId: string;
   currentVotes: number;
